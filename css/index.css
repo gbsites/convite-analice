@@ -1,0 +1,87 @@
+:root {
+    --cor1: #9E283F;
+    --cor2: #FF738F;
+    --cor3: #EB5371;
+    --cor4: #189E2F;
+    --cor5: #52EB6C;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    background-image: url('../srcs/invite.png');
+    background-size: contain;
+    background-repeat: round;
+
+    width: 100%;
+    height: 100%;
+}
+
+main .btns {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    z-index: 10;
+    top: 50%;
+    right: 5%;
+    padding: 5px;
+}
+
+.btns input {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    background-color: #fa91a6;
+    color: white;
+
+    font-size: 0.9em;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.btns input:hover {
+    background-color: #df7a8e;
+}
+
+.grass {
+    position: absolute;
+
+    z-index: 1;
+    bottom: -10%;
+    width: 100%;
+}
+
+.grass img {
+    width: 100%;
+}
+
+.tree {
+    position: absolute;
+
+    z-index: 1;
+    bottom: 7%;
+    left: 0%;
+    width: 60%;
+}
+
+.tree img {
+    width: 100%;
+}

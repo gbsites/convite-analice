@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convite da Analice</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="bg"></div>
+      <div class="grass">
+        <img src="srcs/grass.png" alt="" />
+      </div>
+      <div class="tree">
+        <img src="srcs/tree.png" alt="" />
+      </div>
+
+      <div class="btns">
+        <input type="button" value="Confirmar Presença" class="presence" />
+        <input type="button" value="Ver Localização" class="location" />
+      </div>
+    </main>
+  </body>
+
+  <script>
+    $(function () {
+      $(".presence").click(() => {
+        window.open(
+          "https://wa.me/5521985945597?text=Confirmo que irei para o aniversário da Analice!",
+          "_blank"
+        );
+      });
+
+      $(".location").click(() => {
+        window.open("https://goo.gl/maps/D26ccCBcxucDqcoSA", "_blank");
+      });
+    });
+  </script>
+</html>
