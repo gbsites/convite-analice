@@ -59,14 +59,17 @@ main .btns {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     border: none;
-    background-color: #fa91a6;
-    color: white;
+    background-image: url("../srcs/btnBg.png");
+    background-position-y: bottom;
 
+    width: 120px;
     font-size: 0.7em;
     padding: 10px 5px;
     border-radius: 10px;
+
+    box-shadow: 0 0 10px #0000005e;
 }
 
 .btns input:hover {
-    background-color: #df7a8e;
+    background-color: ;
 }
