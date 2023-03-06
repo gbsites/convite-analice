@@ -52,7 +52,7 @@ main .btns {
     position: absolute;
     display: flex;
 
-    gap: 3px;
+    gap: 10px;
     z-index: 10;
     bottom: 15%;
     left: 50%;
@@ -67,8 +67,8 @@ main .btns {
     font-weight: bolder;
     border: none;
 
-    width: 120px;
-    font-size: 0.7em;
+    width: 110px;
+    font-size: 0.6em;
     padding: 10px 5px;
     border-radius: 10px;
 
